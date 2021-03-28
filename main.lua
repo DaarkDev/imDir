@@ -14,6 +14,7 @@ function __imDir()
 	end
 	return print(__choices["midblue"] .. dirs[#dirs])
 end
+table.insert(__lookup, 5)
 __lookup["imdir"] = function()
 	max_args = 1; min_args = 1; system.checkArgs();
 	
