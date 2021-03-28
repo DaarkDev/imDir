@@ -14,4 +14,9 @@ function __imDir()
 	end
 	return print(__choices["midblue"] .. dirs[#dirs])
 end
-__imDir()
+__lookup["imdir"] = function()
+	max_args = 1; min_args = 1; system.checkArgs();
+	
+	__imDir()
+	xpcall(__main, __error)
+end
