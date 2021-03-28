@@ -1,6 +1,6 @@
 require 'lfs'
 os.execute('cd ..')
-require 'color/main.lua'
+require 'color/main'
 function __imDir()
 	local dir = lfs.currentdir();
 	local dirs = {};
