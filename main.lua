@@ -14,6 +14,6 @@ function __imDir()
 			c = c + 1;
 		end
 	end
-	return print(__midblue .. dirs[#dirs])
+	return print(__midblue .. dirs[#dirs] .. __reset)
 end
 __imDir()
