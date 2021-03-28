@@ -20,4 +20,5 @@ __choices = {
 	["white"] = __white,
 	["darkred"] = __darkred,
 	["yellow"] = __yellow
+	["reset"] = __reset
 }
