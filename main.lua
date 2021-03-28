@@ -1,4 +1,5 @@
 require 'lfs'
+require 'color/main.lua'
 function __imDir()
 	local dir = lfs.currentdir();
 	local dirs = {};
@@ -13,5 +14,5 @@ function __imDir()
 			c = c + 1;
 		end
 	end
-	return dirs[#dirs];
+	return print(__midblue .. dirs[#dirs] .. __reset);
 end
