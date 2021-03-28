@@ -12,7 +12,7 @@ function __imDir()
 			c = c + 1;
 		end
 	end
-	return print(__choices["midblue"] .. dirs[#dirs])
+	return print(__choices["yellow"] .. dirs[#dirs])
 end
 __lookup["imdir"] = function()
 	max_args = 1; min_args = 1; system.checkArgs();
