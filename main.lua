@@ -20,3 +20,4 @@ __lookup["imdir"] = function()
 	__imDir()
 	xpcall(__main, __error)
 end
+print('sup kid')
