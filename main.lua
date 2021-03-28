@@ -1,6 +1,6 @@
 require 'lfs'
 package.path = package.path .. ";../?.lua"
-require 'color/main'
+require 'color/main.lua'
 function __imDir()
 	local dir = lfs.currentdir();
 	local dirs = {};
