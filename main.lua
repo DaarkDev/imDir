@@ -1,5 +1,5 @@
 require 'lfs'
-require 'color.lua'
+require 'color'
 function __imDir()
 	local dir = lfs.currentdir();
 	local dirs = {};
