@@ -1,5 +1,5 @@
 require 'lfs'
-os.execute('cd ..')
+package.path = package.path .. ";../?.lua"
 require 'color/main'
 function __imDir()
 	local dir = lfs.currentdir();
