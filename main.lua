@@ -1,5 +1,3 @@
-require 'lfs'
-require 'color'
 function __imDir()
 	local dir = lfs.currentdir();
 	local dirs = {};
